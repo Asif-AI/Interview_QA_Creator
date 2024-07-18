@@ -5,7 +5,7 @@
 1. Create an environment
 
 ```bash
-conda create ./env python=3.10 -y
+conda create -p ./env python=3.10 -y
 
 ```
 
@@ -20,6 +20,7 @@ conda activate ./env
 ```bash
 pip install -r requirements.txt
 ```
+
 
 
 ### GitHub commands
